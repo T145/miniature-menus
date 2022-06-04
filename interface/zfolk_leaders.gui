@@ -82,8 +82,8 @@ guiTypes = {
     instantTextBoxType = {
       name = "char_age_label"
       font = "cg_16b"
-      text = "AGE"
-      position = { x = 180 y = 4 }
+      text = "Age"
+      position = { x = 185 y = 4 }
       maxWidth = 60
       maxHeight = 20
       format = right
@@ -92,7 +92,7 @@ guiTypes = {
     instantTextBoxType = {
       name = "leader_age"
       font = "cg_16b"
-      text = "?"
+      text = ""
       position = { x = 240 y = 4 }
       maxWidth = 26
       maxHeight = 20
