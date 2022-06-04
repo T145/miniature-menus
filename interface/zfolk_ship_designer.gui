@@ -1,7 +1,7 @@
 guiTypes = {
   containerWindowType = {
     name = "component_set_entry"
-    position = { x=0 y=0 }
+    position = { x =0 y =0 }
     size = { width = 240 height = 34 }
     moveable = no
 
@@ -28,39 +28,38 @@ guiTypes = {
     }
 
     iconType = {
-      name ="icon_bg"
+      name = "icon_bg"
       spriteType = "GFX_ship_part_background"
-      position = { x= -5 y = -2 }
+      position = { x = -5 y = -2 }
       alwaystransparent = yes
       scale = 0.5
     }
 
     iconType = {
-      name ="icon"
+      name = "icon"
       spriteType = "GFX_ship_part_background"
-      position = { x= 2 y = 1 }
+      position = { x = 2 y = 1 }
       alwaystransparent = yes
       scale = 0.5
     }
 
-    instantTextBoxType={
+    instantTextBoxType = {
       name = "name"
       font = "cg_16b"
       text = ""
-      position = { x= 34 y= 7 }
+      position = { x = 34 y = 7 }
       maxWidth = 200
       maxHeight = 20
       fixedsize = yes
       format = left
-      text_color_code = "H"
       alwaystransparent = yes
     }
 
-    instantTextBoxType={
+    instantTextBoxType = {
       name = "stats"
       font = "cg_16b"
       text = ""
-      position = { x= 52 y= 27 }
+      position = { x = 52 y = 27 }
       maxWidth = 200
       maxHeight = 30
       fixedsize = yes
@@ -68,72 +67,72 @@ guiTypes = {
       alwaystransparent = yes
     }
 
-    @typeicony = 8
+    @yOffset = 8
     @slot1 = 188
     @slot2 = 204
     @slot3 = 220
 
     iconType = {
-      name ="pd_icon"
+      name = "pd_icon"
       spriteType = "GFX_component_slot_icons"
       frame = 1
-      position = { x= @slot3 y = @typeicony }
+      position = { x = @slot3 y = @yOffset }
       scale = 0.7
     }
 
     iconType = {
-      name ="small_icon"
+      name = "small_icon"
       spriteType = "GFX_component_slot_icons"
       frame = 2
-      position = { x= @slot1 y = @typeicony }
+      position = { x = @slot1 y = @yOffset }
       scale = 0.7
     }
 
     iconType = {
-      name ="medium_icon"
+      name = "medium_icon"
       spriteType = "GFX_component_slot_icons"
       frame = 3
-      position = { x= @slot2 y = @typeicony }
+      position = { x = @slot2 y = @yOffset }
       scale = 0.7
     }
 
     iconType = {
-      name ="large_icon"
+      name = "large_icon"
       spriteType = "GFX_component_slot_icons"
       frame = 4
-      position = { x= @slot3 y = @typeicony }
+      position = { x = @slot3 y = @yOffset }
       scale = 0.7
     }
 
     iconType = {
-      name ="torpedo_icon"
+      name = "torpedo_icon"
       spriteType = "GFX_component_slot_icons"
       frame = 5
-      position = { x= @slot3 y = @typeicony }
+      position = { x = @slot3 y = @yOffset }
       scale = 0.7
     }
 
     iconType = {
-      name ="extra_large_icon"
+      name = "extra_large_icon"
       spriteType = "GFX_component_slot_icons"
       frame = 6
-      position = { x= @slot3 y = @typeicony }
+      position = { x = @slot3 y = @yOffset }
       scale = 0.7
     }
 
     iconType = {
-      name ="aux_icon"
+      name = "aux_icon"
       spriteType = "GFX_component_slot_icons"
       frame = 7
-      position = { x= @slot3 y = @typeicony }
+      position = { x = @slot3 y = @yOffset }
       scale = 0.7
     }
 
     iconType = {
-      name ="strike_craft_icon"
+      name = "strike_craft_icon"
       spriteType = "GFX_component_slot_icons"
       frame = 9
-      position = { x= @slot3 y = @typeicony }
+      position = { x = @slot3 y = @yOffset }
       scale = 0.7
     }
   }
@@ -223,7 +222,7 @@ guiTypes = {
     buttonType = {
       name = "close"
       quadTextureSprite = "GFX_close"
-      position = { x= -45 y = 13 }
+      position = { x = -45 y = 13 }
       Orientation = "UPPER_RIGHT"
       shortcut = "ESCAPE"
       clicksound = "back_click"
@@ -232,7 +231,7 @@ guiTypes = {
     buttonType = {
       name = "apply_on_empty"
       quadTextureSprite = "GFX_standard_button_142_34_button"
-      position = { x= 49 y = 788 }
+      position = { x = 49 y = 788 }
       Orientation = "UPPER_LEFT"
       buttonFont = "cg_16b"
       buttonText = "APPLY_ON_EMPTY"
