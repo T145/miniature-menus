@@ -1,0 +1,14 @@
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{asset,fx,gfx,fxh,mod,gui,txt}]
+indent_style = space
+indent_size = 2
+
+[*.{bat,cmd,ps1,[Bb][Aa][Tt],[Cc][Mm][Dd],[Pp][Ss][1]]
+# DOS/Win *requires* BAT/CMD/PS1 files to have CRLF newlines
+end_of_line = crlf
