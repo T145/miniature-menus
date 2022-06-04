@@ -135,9 +135,9 @@ guiTypes = {
     buttonType = {
       name = "dismiss"
       quadTextureSprite = "GFX_close_button_planet"
-      position = { x = -30 y = 7 }
+      position = { x = -20 y = 4 }
       orientation = "UPPER_RIGHT"
-      scale = 0.6
+      scale = 0.4
     }
   }
 
