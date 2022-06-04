@@ -1,5 +1,5 @@
-# Miniature Menu
-Updates and fixes to many tiny menu mods in Stellaris!
+# Miniature Menus
+Updates and fixes many tiny menu mods in Stellaris!
 
 # Dev Environment Setup
 
