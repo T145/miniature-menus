@@ -126,10 +126,10 @@ guiTypes = {
 
     OverlappingElementsBoxType = {
       name = "traits"
-      position = { x = 56 y = 30 }
+      position = { x = 66 y = 32 }
       size = { x = 244 y = 8 }
       format = right
-      spacing = -8
+      spacing = -16 # was 8
     }
 
     buttonType = {
