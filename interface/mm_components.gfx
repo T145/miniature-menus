@@ -1,27 +1,28 @@
 spriteTypes = {
-
-  # spriteType = {
-  # 	name = "GFX_zfolk_small"
-  # 	textureFile = "gfx/interface/buttons/zfolk_small_entry.dds"
-  # 	noOfFrames = 3
-  # 	effectFile = "gfx/FX/buttonstate_onlydisable.shader"
-  # }
-  # spriteType = {
-  # 	name = "GFX_zfolk_small_selected"
-  # 	textureFile = "gfx/interface/buttons/zfolk_small_entry_selected.dds"
-  # 	noOfFrames = 3
-  # 	effectFile = "gfx/FX/buttonstate_onlydisable.shader"
-  # }
-  # corneredTileSpriteType = {
-  #	 name = "GFX_zfolk_glow_green"
-  #	 #textureFile = "gfx/interface/zfolkglowgreen.dds"
-  #	 textureFile = "gfx/interface/zfolkglowdarkgreen.dds"
-  #	 borderSize = { x=12 y=12 }
-  #	 effectFile = "gfx/FX/buttonstate_onlydisable.shader"
-  # }
+  spriteType = {
+  	name = "GFX_mm_small"
+  	textureFile = "gfx/interface/buttons/mm_small_entry.dds"
+  	noOfFrames = 3
+  	effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+  }
 
   spriteType = {
-    name = "GFX_zfolk_component_button"
+  	name = "GFX_mm_small_selected"
+  	textureFile = "gfx/interface/buttons/mm_small_entry_selected.dds"
+  	noOfFrames = 3
+  	effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+  }
+
+  corneredTileSpriteType = {
+  	 name = "GFX_mm_glow_green"
+  	 #textureFile = "gfx/interface/mm_glow_green.dds"
+  	 textureFile = "gfx/interface/mm_glow_dark_green.dds"
+  	 borderSize = { x=12 y=12 }
+  	 effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+  }
+
+  spriteType = {
+    name = "GFX_mm_component_button"
     textureFile = "gfx/interface/button_240_animated.dds"
     effectFile = "gfx/FX/buttonstate_onlydisable.shader"
     noOfFrames = 3

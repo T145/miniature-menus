@@ -12,7 +12,7 @@ guiTypes = {
       background = {
         name = "background"
         position = { x = -7 y = -8 }
-        quadTextureSprite = "GFX_zfolk_component_button"
+        quadTextureSprite = "GFX_mm_component_button"
       }
     }
 
