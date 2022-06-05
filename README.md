@@ -12,6 +12,5 @@ Updates and fixes many tiny menu mods in Stellaris!
     - [Paradox Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=tboby.paradox-syntax)
 3. Change the following CWTools settings:
     - Cache: Stellaris = (current game path)
-    - Rules_version = stable
 4. Install the following prerequisite mods:
     - UI Overhaul Dynamic
